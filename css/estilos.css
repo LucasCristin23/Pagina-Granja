@@ -1,0 +1,25 @@
+/*RESETEO*/
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+/*ESTILO NAV*/
+.logoIndex{
+    margin-left: 2%;
+    height: 100px;
+    width: 400px;
+}
+.ulNavIndex{
+    margin: 5%;
+    width: 100%;
+    justify-content: flex-end;
+}
+.navIndex{
+    border-bottom: 1px solid black;
+    box-shadow: 0px 10px 50px 1px gray;
+}
