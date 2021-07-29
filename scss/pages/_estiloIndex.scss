@@ -1,0 +1,47 @@
+//----PRIMERA SECCION CARRUSEL
+.contenedorDelCarrusel{
+    height: 500px;
+    margin-top: 2%;
+    .contenedorCarrusel{
+        height: auto;
+        .contenedorImgCarrusel{
+            height: 500px;
+        }
+    }
+}
+
+//----SECCION HORARIOS
+.contenedorCuadrosIndex{
+    margin-top: 2%;
+    background-color: sandybrown;
+    height: 300px;
+    .pHorarios{
+        text-align: center;
+    }
+    .diasHorarios{
+       display: flex;
+       justify-content: space-around;
+       .divDias{
+           text-align: center;
+       }
+    }
+}
+
+//----SECCION DIRECCION
+.divSeccionDireccion{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    .pSeccionDireccion{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .iframeSeccionDireccion{
+        width: 70%;
+        iframe{
+            border-radius: 5px;
+        }
+    }
+}
